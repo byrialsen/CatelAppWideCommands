@@ -1,0 +1,18 @@
+﻿<catelControls:Page
+    x:Class="CatelAppWideCommands.Uwp.MainView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CatelAppWideCommands.Uwp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:catelControls="using:Catel.Windows.Controls"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Text="Press F5 again and again and check if timestamp is updated below" Margin="0,0,0,24" />
+            <TextBlock Style="{StaticResource TitleTextBlockStyle}" Text="{Binding UpdatedTimestamp, Mode=OneWay}" HorizontalAlignment="Center" />
+        </StackPanel>
+    </Grid>
+</catelControls:Page>

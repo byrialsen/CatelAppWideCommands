@@ -1,0 +1,7 @@
+﻿<Application
+    x:Class="CatelAppWideCommands.Uwp.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CatelAppWideCommands.Uwp">
+
+</Application>
